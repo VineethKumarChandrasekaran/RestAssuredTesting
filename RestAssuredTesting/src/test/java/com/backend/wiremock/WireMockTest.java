@@ -1,5 +1,7 @@
 package com.backend.wiremock;
 
+import org.hamcrest.Matcher;
+import org.hamcrest.Matchers;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
@@ -27,6 +29,7 @@ public class WireMockTest {
 		
 		response.then()
 		.assertThat().statusCode(200)
+		.assertThat().contentType(ContentType.JSON)
 		.log().all();
 	}
 
