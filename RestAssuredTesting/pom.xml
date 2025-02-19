@@ -16,7 +16,6 @@
 	</properties>
 
 	<dependencies>
-
 		<!-- Selenium Java Dependency -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -168,7 +167,6 @@
 			<scope>test</scope>
 		</dependency>
 
-
 		<!--
 		https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
 		<dependency>
@@ -177,6 +175,12 @@
 			<version>5.4.0</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>9.4.0</version>
+		</dependency>
 
 	</dependencies>
 </project>
