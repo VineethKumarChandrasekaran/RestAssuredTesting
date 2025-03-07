@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.backend.mocking.PaymentTest">
+      <class name="com.backend.automationexercise.POSTToVerifyLoginWithValidDetails">
         <methods>
-          <include name="creditCard"/>
+          <include name="verifyLogin"/>
         </methods>
-      </class> <!-- com.backend.mocking.PaymentTest -->
+      </class> <!-- com.backend.automationexercise.POSTToVerifyLoginWithValidDetails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
